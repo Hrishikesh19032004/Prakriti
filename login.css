@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+
+body {
+	background: url("https://picjumbo.com/wp-content/uploads/buddha-wallpaper-free-photo.jpg");	
+}
+
+.container {
+	position: absolute;
+	top: 150px;
+	left: 35%;
+	
+}
+
+.screen {		
+	background: linear-gradient(90deg, #780000, #ff686b);		
+	position: relative;	
+	height: 600px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #c81d25;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: #FFF;	
+	top: -50px;
+	right: 120px;	
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #bd1f36;	
+	top: -172px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #bd1f36, #e01e37);
+	top: -24px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #bd1f36;	
+	top: 420px;
+	right: 50px;	
+	border-radius: 60px;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #bd1f36;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #bd1f36;
+}
+
+.login__submit {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #bd1f36;
+	box-shadow: 0px 2px 2px #bd1f36;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #6A679E;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #7875B5;
+}
+
+.social-login {	
+	position: absolute;
+	height: 140px;
+	width: 160px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #7875B5;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+}
+
+.navbar{
+    width: 1260px;
+    height: 100px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Luna";
+}
+
+.aboutPrakriti{
+    width: 150px;
+    height: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    margin-left: 570px;
+    border-width: 2px;
+    border-color: transparent;
+    margin-top: 35px;
+}
+
+.aboutPrakriti a{
+    text-decoration: none;
+    color: white;
+    font-family: "Luna";
+    font-size: 17px;
+    
+}
+
+.doshaQuiz{
+    width: 150px;
+    height: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    margin-left: 15px;
+    border-width: 2px;
+    border-color: transparent;
+    margin-top: 35px;
+}
+
+.doshaQuiz a{
+    text-decoration: none;
+    color: white;
+    font-family: "Luna";
+    font-size: 17px;
+}
+
+.log{
+    width: 80px;
+    height: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    margin-left: 5px;
+    border-width: 2px;
+    border-color: transparent;
+    margin-top: 35px;
+}
+
+.log a{
+    text-decoration: none;
+    color: white;
+    font-family: "Luna";
+    font-size: 17px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  nav{
+    position:fixed;
+    top:0;
+    right:0;
+    width:250px;
+    height:100%;
+    margin:0 -250px 0 0;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+}
+nav ul{
+    width:250px;
+    height:100%;
+    padding:0;
+    margin:0;
+    list-style:none;
+    background:#222;
+    overflow:hidden;
+}
+nav li{
+    margin:0;
+	height: 80px;
+}
+nav a{
+    color:#fff;
+    font-size:1em;
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    text-decoration:none;
+    display:block;
+    padding:12px 15px;
+    font-weight:300;
+    letter-spacing:2px;
+    border-bottom:1px solid #333;
+}
+nav a:hover{
+    background:#111;
+}
+label{
+    display:block;
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    font-weight:700;
+    background:#c9184a;
+    width:42px;
+    height:42px;
+    line-height:42px;
+    color:#fff;
+    text-align:center;
+    font-size:2em;
+    line-height:1.1em;
+    position:fixed;
+    top:40px;
+    right:10px;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+    z-index:500;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+input[type="checkbox"]:checked ~ nav{
+    margin:0;
+}
+input[type="checkbox"]:checked ~ label{
+    right:260px;
+}
+input[type="checkbox"]:checked ~ section{
+    -webkit-transform:translate3d(260px, 0, 0);
+    -moz-transform:translate3d(260px, 0, 0);
+    -o-transform:translate3d(260px, 0, 0);
+    transform:translate3d(260px, 0, 0);
+}

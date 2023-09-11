@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    width: 1260px;
+    height: 100px;
+    background: url("https://picjumbo.com/wp-content/uploads/buddha-wallpaper-free-photo.jpg");
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Luna";
+}
+
+.aboutPrakriti{
+    width: 150px;
+    height: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    margin-left: 570px;
+    border-width: 2px;
+    border-color: transparent;
+    margin-top: 35px;
+}
+
+.aboutPrakriti a{
+    text-decoration: none;
+    color: white;
+    font-family: "Luna";
+    font-size: 17px;
+    
+}
+
+.doshaQuiz{
+    width: 150px;
+    height: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    margin-left: 15px;
+    border-width: 2px;
+    border-color: transparent;
+    margin-top: 35px;
+}
+
+.doshaQuiz a{
+    text-decoration: none;
+    color: white;
+    font-family: "Luna";
+    font-size: 17px;
+}
+
+.login{
+    width: 80px;
+    height: 30px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    margin-left: 5px;
+    border-width: 2px;
+    border-color: transparent;
+    margin-top: 35px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    font-family: "Luna";
+    font-size: 17px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  nav{
+    position:fixed;
+    top:0;
+    right:0;
+    width:250px;
+    height:100%;
+    margin:0 -250px 0 0;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+    z-index: 500px;
+}
+nav ul{
+    width:250px;
+    height:100%;
+    padding:0;
+    margin:0;
+    list-style:none;
+    background:#222;
+    overflow:hidden;
+}
+nav li{
+    margin:0;
+}
+nav a{
+    color:#fff;
+    font-size:1em;
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    text-decoration:none;
+    display:block;
+    padding:12px 15px;
+    font-weight:300;
+    letter-spacing:2px;
+    border-bottom:1px solid #333;
+}
+nav a:hover{
+    background:#111;
+}
+label{
+    display:block;
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    font-weight:700;
+    background:#c9184a;
+    width:42px;
+    height:42px;
+    line-height:42px;
+    color:#fff;
+    text-align:center;
+    font-size:2em;
+    line-height:1.1em;
+    position:absolute;
+    top:30px;
+    right:10px;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+    z-index:500;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+input[type="checkbox"]:checked ~ nav{
+    margin:0;
+}
+input[type="checkbox"]:checked ~ label{
+    right:260px;
+}
+input[type="checkbox"]:checked ~ section{
+    -webkit-transform:translate3d(260px, 0, 0);
+    -moz-transform:translate3d(260px, 0, 0);
+    -o-transform:translate3d(260px, 0, 0);
+    transform:translate3d(260px, 0, 0);
+}
+
+
+/**Shop Section**/
+.shop_sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #da1e37;
+    position: absolute;
+    top: 580px;
+    width: 100%;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box_img{
+    height: 300px;
+    background-size: cover;
+}
+.box_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box_content p{
+    color: #007185;
+    margin-top: 15px;
+}
+.box_content h2{
+    margin-bottom: 15px;
+}
+
+
+/**End section**/
+<!-- HTML !-->
+<button class="button-88" role="button">Button 88</button>
+
+/* CSS */
+.end_sec{
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+.end-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/**footpanel1**/
+.footpanel1{
+    background-color: #e5383b;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+ .footpanel2{
+    background-color: #b21e35;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ ul{
+    margin-top: 20px;
+ }
+ ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+ }
+ .footpanel3{
+    background-color: #e5383b;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+ }
+ .footpanel4{
+    background-color: #641220;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80px;
+ }
+ .pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+ }
+ .copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+ }
+
+ .hero{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    background-image: url("https://www.keralatourism.org/images/hri/large/ayurveda_medicines_2.jpg");
+    background-size: cover;
+    z-index: -1000px;
+ }
